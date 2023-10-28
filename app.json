@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "DesignApp",
-    "slug": "DesignApp",
-    "version": "1.0.0",
+    "name": "DesignAppTest",
+    "slug": "DesignAppTest",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -23,8 +23,14 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "scheme": "designapp"  
+    ,
     "web": {
+      "bundler": "metro",
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
